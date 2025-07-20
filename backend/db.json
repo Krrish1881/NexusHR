@@ -1,0 +1,191 @@
+{
+  "candidates": [
+    {
+      "id": "1",
+      "name": "Alex Johnson",
+      "title": "Senior Software Engineer",
+      "department": "Engineering",
+      "description": "Experienced full-stack developer with expertise in JavaScript frameworks.",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript"
+      ],
+      "experience": "7",
+      "location": "San Francisco"
+    },
+    {
+      "id": "2",
+      "name": "Maria Garcia",
+      "title": "UX Designer",
+      "department": "Design",
+      "description": "Creative designer focused on user-centered design principles.",
+      "skills": [
+        "UI/UX",
+        "Figma",
+        "Prototyping",
+        "User Research"
+      ],
+      "experience": "4",
+      "location": "New York"
+    },
+    {
+      "id": "3",
+      "name": "James Wilson",
+      "title": "Marketing Manager",
+      "department": "Marketing",
+      "description": "Digital marketing expert with strong analytics skills.",
+      "skills": [
+        "Digital Marketing",
+        "SEO",
+        "Content Strategy"
+      ],
+      "experience": "5",
+      "location": "Chicago"
+    },
+    {
+      "id": "4",
+      "name": "Sarah Lee",
+      "title": "HR Specialist",
+      "department": "HR",
+      "description": "Dedicated HR professional with focus on talent development.",
+      "skills": [
+        "Recruitment",
+        "Training",
+        "Employee Relations"
+      ],
+      "experience": "3",
+      "location": "Boston"
+    },
+    {
+      "id": "5",
+      "name": "David Kim",
+      "title": "Sales Director",
+      "department": "Sales",
+      "description": "Proven track record in enterprise sales and account management.",
+      "skills": [
+        "B2B Sales",
+        "Account Management",
+        "Negotiation"
+      ],
+      "experience": "8",
+      "location": "Austin"
+    },
+    {
+      "id": "6",
+      "name": "Priya Patel",
+      "title": "Quality Assurance Engineer",
+      "department": "Engineering",
+      "description": "Detail-oriented QA engineer with automation experience.",
+      "skills": [
+        "Testing",
+        "Automation",
+        "Selenium",
+        "Python"
+      ],
+      "experience": "2",
+      "location": "Remote"
+    },
+    {
+      "id": "7",
+      "name": "Olivia Turner",
+      "title": "Data Scientist",
+      "department": "Engineering",
+      "description": "Data Scientist with experience in Python, Machine Learning, Data Analysis.",
+      "skills": ["Python", "Machine Learning", "Data Analysis"],
+      "experience": "6",
+      "location": "Seattle"
+    },
+    {
+      "id": "8",
+      "name": "Liam Bennett",
+      "title": "Product Manager",
+      "department": "Product",
+      "description": "Product Manager with experience in Roadmapping, Agile, Stakeholder Management.",
+      "skills": ["Roadmapping", "Agile", "Stakeholder Management"],
+      "experience": "5",
+      "location": "Denver"
+    },
+    {
+      "id": "9",
+      "name": "Emma Collins",
+      "title": "Graphic Designer",
+      "department": "Design",
+      "description": "Graphic Designer with experience in Photoshop, Illustrator, Branding.",
+      "skills": ["Photoshop", "Illustrator", "Branding"],
+      "experience": "4",
+      "location": "Los Angeles"
+    },
+    {
+      "id": "10",
+      "name": "Noah Martinez",
+      "title": "DevOps Engineer",
+      "department": "Engineering",
+      "description": "DevOps Engineer with experience in AWS, Docker, CI/CD.",
+      "skills": ["AWS", "Docker", "CI/CD"],
+      "experience": "7",
+      "location": "Austin"
+    },
+    {
+      "id": "11",
+      "name": "Ava Brooks",
+      "title": "Recruiter",
+      "department": "HR",
+      "description": "Recruiter with experience in Sourcing, Interviewing, Onboarding.",
+      "skills": ["Sourcing", "Interviewing", "Onboarding"],
+      "experience": "3",
+      "location": "Boston"
+    },
+    {
+      "id": "12",
+      "name": "Ethan Simmons",
+      "title": "Customer Success Manager",
+      "department": "Customer Success",
+      "description": "Customer Success Manager with experience in Client Relations, Upselling, Support.",
+      "skills": ["Client Relations", "Upselling", "Support"],
+      "experience": "5",
+      "location": "Remote"
+    },
+    {
+      "id": "13",
+      "name": "Isabella Hayes",
+      "title": "Content Writer",
+      "department": "Marketing",
+      "description": "Content Writer with experience in Writing, SEO, Content Creation.",
+      "skills": ["Writing", "SEO", "Content Creation"],
+      "experience": "4",
+      "location": "New York"
+    },
+    {
+      "id": "14",
+      "name": "Mason Reed",
+      "title": "Account Executive",
+      "department": "Sales",
+      "description": "Account Executive with experience in Lead Generation, CRM, Cold Calling.",
+      "skills": ["Lead Generation", "CRM", "Cold Calling"],
+      "experience": "6",
+      "location": "Chicago"
+    },
+    {
+      "id": "15",
+      "name": "Sophia Hughes",
+      "title": "UX Designer",
+      "department": "Design",
+      "description": "UX Designer with experience in UI/UX, Figma, Prototyping, User Research.",
+      "skills": ["UI/UX", "Figma", "Prototyping", "User Research"],
+      "experience": "3",
+      "location": "San Francisco"
+    },
+    {
+      "id": "16",
+      "name": "Logan Foster",
+      "title": "DevOps Engineer",
+      "department": "Engineering",
+      "description": "DevOps Engineer with experience in AWS, Docker, CI/CD.",
+      "skills": ["AWS", "Docker", "CI/CD"],
+      "experience": "8",
+      "location": "Atlanta"
+    }
+  ]
+}

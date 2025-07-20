@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusHR - Quantum Talent Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dynamic Background -->
+    <div class="quantum-background">
+        <div class="quantum-grid"></div>
+        <div class="particle-system">
+            <div class="floating-particles"></div>
+            <div class="energy-waves"></div>
+        </div>
+        <div class="matrix-rain"></div>
+    </div>
+
+    <!-- Neural Network Canvas -->
+    <canvas id="neural-network" class="neural-network-canvas"></canvas>
+
+    <!-- Holographic Scanner -->
+    <div class="holographic-scanner"></div>
+
+    <!-- Main Container -->
+    <div class="quantum-container">
+        <!-- Header with Quantum Logo -->
+        <header class="quantum-header">
+            <div class="logo-container">
+                <div class="quantum-logo">
+                    <div class="logo-core">
+                        <div class="logo-text">NexusHR</div>
+                        <div class="logo-pulse"></div>
+                    </div>
+                    <div class="logo-orbits">
+                        <div class="orbit orbit-1"></div>
+                        <div class="orbit orbit-2"></div>
+                        <div class="orbit orbit-3"></div>
+                    </div>
+                </div>
+                <div class="quantum-tagline">
+                    <span class="glitch" data-text="Neural Workforce Intelligence">Neural Workforce Intelligence</span>
+                </div>
+            </div>
+            
+            <!-- Status Indicators -->
+            <div class="quantum-status">
+                <div class="status-indicator">
+                    <div class="status-dot active"></div>
+                    <span>AI Online</span>
+                </div>
+                <div class="status-indicator">
+                    <div class="status-dot active"></div>
+                    <span>Quantum Sync</span>
+                </div>
+                <div class="status-indicator">
+                    <div class="status-dot active"></div>
+                    <span>Neural Link</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Command Center -->
+        <section class="command-center">
+            <div class="search-interface">
+                <div class="search-pod">
+                    <div class="search-input-wrapper">
+                        <input type="text" class="quantum-search" id="searchInput" placeholder="Search quantum talent database...">
+                        <div class="search-visualizer">
+                            <div class="wave-form"></div>
+                            <div class="wave-form"></div>
+                            <div class="wave-form"></div>
+                        </div>
+                    </div>
+                    <button class="quantum-button search-button" id="searchBtn">
+                        <span class="button-text">SCAN</span>
+                        <div class="button-pulse"></div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="filter-array">
+                <div class="filter-module">
+                    <label class="filter-label">Department Matrix</label>
+                    <select class="quantum-select" id="departmentFilter">
+                        <option value="">All Dimensions</option>
+                        <option value="Engineering">Engineering</option>
+                        <option value="Design">Design</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Sales">Sales</option>
+                        <option value="HR">HR</option>
+                    </select>
+                </div>
+                <div class="filter-module">
+                    <label class="filter-label">Skill Matrix</label>
+                    <select class="quantum-select" id="skillFilter">
+                        <option value="">All Abilities</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="React">React</option>
+                        <option value="UI/UX">UI/UX</option>
+                        <option value="Python">Python</option>
+                        <option value="Leadership">Leadership</option>
+                    </select>
+                </div>
+                <div class="filter-module">
+                    <label class="filter-label">Experience Level</label>
+                    <select class="quantum-select" id="experienceFilter">
+                        <option value="">All Levels</option>
+                        <option value="0-2">Novice (0-2 years)</option>
+                        <option value="3-5">Adept (3-5 years)</option>
+                        <option value="5+">Master (5+ years)</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Interface -->
+        <div class="quantum-interface">
+            <div class="talent-matrix">
+                <div class="matrix-header">
+                    <h2 class="matrix-title">
+                        <i class="fas fa-brain"></i>
+                        Quantum Talent Matrix
+                    </h2>
+                    <div class="matrix-controls">
+                        <button class="view-toggle active" data-view="grid">
+                            <i class="fas fa-th"></i>
+                        </button>
+                        <button class="view-toggle" data-view="list">
+                            <i class="fas fa-list"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="talent-grid" id="candidatesContainer">
+                    <!-- Candidates will be loaded here -->
+                </div>
+            </div>
+
+            <div class="analytics-nexus">
+                <div class="nexus-header">
+                    <h3 class="nexus-title">
+                        <i class="fas fa-chart-line"></i>
+                        Neural Analytics
+                    </h3>
+                    <div class="nexus-pulse"></div>
+                </div>
+
+                <div class="analytics-modules">
+                    <div class="metric-module">
+                        <div class="metric-display">
+                            <div class="metric-value" id="totalCandidates">0</div>
+                            <div class="metric-label">Total Entities</div>
+                        </div>
+                        <div class="metric-visualization">
+                            <div class="metric-wave"></div>
+                        </div>
+                    </div>
+
+                    <div class="metric-module">
+                        <div class="metric-display">
+                            <div class="metric-value" id="avgExperience">0</div>
+                            <div class="metric-label">Neural Index</div>
+                        </div>
+                        <div class="metric-visualization">
+                            <div class="metric-wave"></div>
+                        </div>
+                    </div>
+
+                    <div class="chart-module">
+                        <canvas id="quantumChart"></canvas>
+                    </div>
+
+                    <div class="ai-insights">
+                        <div class="insight-header">
+                            <i class="fas fa-robot"></i>
+                            <span>AI Insights</span>
+                        </div>
+                        <div class="insight-text" id="aiInsights">
+                            Analyzing neural patterns...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quantum Notification System -->
+    <div class="quantum-notification" id="notification">
+        <div class="notification-icon"></div>
+        <div class="notification-content">
+            <div class="notification-title"></div>
+            <div class="notification-message"></div>
+        </div>
+        <div class="notification-close">×</div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="quantum-loader" id="loader">
+        <div class="loader-core">
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+        </div>
+        <div class="loader-text">Initializing Quantum Systems...</div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
